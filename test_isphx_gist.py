@@ -26,6 +26,8 @@ import re
 
 import pytest
 import requests as rq
+import sphobjinv as soi
+
 
 pat_domain = re.compile(r"https?://([^/]+)/")
 
@@ -69,4 +71,4 @@ def test_mapping_objects_inv(mapping_tuple):
         if mapping_tuple[1]
         else (mapping_tuple[0].removesuffix("/") + "/objects.inv")
     )
-    assert rq.get(inv_link).ok
+    assert soi.Inventory(url=inv_link)
