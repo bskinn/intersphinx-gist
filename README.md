@@ -1,4 +1,4 @@
-# Link Check for `intersphinx_mappings` Gist
+# Link-check for `intersphinx_mappings` gist
 
 In 2016, I was trying to get
 [`intersphinx`](https://www.sphinx-doc.org/en/master/usage/quickstart.html?highlight=intersphinx#intersphinx)
