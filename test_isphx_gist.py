@@ -23,6 +23,7 @@ r"""*Module to test link validity in intersphinx mappings gist.*
 """
 
 import re
+from pathlib import Path
 
 import pytest
 import requests as rq
@@ -31,6 +32,14 @@ import sphobjinv as soi
 
 pat_domain = re.compile(r"https?://([^/]+)/")
 
+LOG_FILE = "gist-check.log"
+
+
+def log_append(text):
+    """Append text to log file."""
+    with Path(LOG_FILE).open(mode="a") as f:
+        f.write(text)
+
 
 def get_mapping_tuples():
     """Retrieve intersphinx gist and extract mapping tuples."""
@@ -38,6 +47,8 @@ def get_mapping_tuples():
     pat_tuple = re.compile(r"[(][^)]+[)]")
 
     resp = rq.get("https://gist.github.com/bskinn/0e164963428d4b51017cebdb6cda5209")
+    log_append("Got gist page\n\n")
+
     data = resp.content.decode()
     mchs = list(pat_line.finditer(data))
 
@@ -46,7 +57,12 @@ def get_mapping_tuples():
         for sm in [pat_tuple.search(m.group(0)) for m in mchs]
     ]
 
-    return [eval(sm) for sm in submchs]
+    tups = [eval(sm) for sm in submchs]
+
+    [log_append(t[0] + "\n") for t in tups]
+    log_append("\n")
+
+    return tups
 
 
 mapping_tuples_list = get_mapping_tuples()
@@ -61,7 +77,9 @@ def mapping_tuple(request):
 
 def test_mapping_root(mapping_tuple):
     """Check docs root link validity."""
-    assert rq.get(mapping_tuple[0]).ok
+    resp = rq.get(mapping_tuple[0])
+    log_append(f"{mapping_tuple[0]}: {resp.status_code}\n")
+    assert resp.ok
 
 
 def test_mapping_objects_inv(mapping_tuple):
