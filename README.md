@@ -14,9 +14,9 @@ that this Gist shows up quite high in Google search results for things like
 Soooo, I figured it probably would be a good idea to curate the Gist a bit more carefully.
 This repo houses a Github Action that runs a small pytest suite, which checks that:
 
- 1. The docs root link points to a live site, and
+ 1. The docs root links all point to live sites, and
 
- 2. The `objects.inv` location defined by the mappings points to a valid inventory file,
+ 2. The `objects.inv` locations defined by the mappings point to valid inventory files,
     as checked by [`sphobjinv`](https://github.com/bskinn/sphobjinv).
 
 
