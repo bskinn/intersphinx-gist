@@ -88,4 +88,7 @@ def test_mapping_root(mapping_tuple):
 def test_mapping_objects_inv(mapping_tuple):
     """Check docs objects.inv link validity."""
     inv_link = mapping_tuple[1] or (mapping_tuple[0].removesuffix("/") + "/objects.inv")
-    assert soi.Inventory(url=inv_link)
+    inv = soi.Inventory(url=inv_link)
+    log_append(f"{repr(inv)}\n\n")
+    assert inv
+
