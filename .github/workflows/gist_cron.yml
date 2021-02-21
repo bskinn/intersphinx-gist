@@ -1,7 +1,14 @@
 name: gist-cron
 
-# Eventually will switch to cronjob and tunable push trigge
-on: push
+# Eventually will switch to cronjob and tunable push trigger
+on: 
+  push:
+    branches:
+      - test-*
+  schedule:
+    - cron: '14 2 */3 * *'
+  workflow_dispatch:
+
 
 jobs:
   link_check:
