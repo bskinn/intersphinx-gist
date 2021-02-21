@@ -25,6 +25,7 @@ r"""*Module to test link validity in intersphinx mappings gist.*
 import re
 from pathlib import Path
 
+import arrow
 import pytest
 import requests as rq
 import sphobjinv as soi
@@ -33,6 +34,7 @@ import sphobjinv as soi
 pat_domain = re.compile(r"https?://([^/]+)/")
 
 LOG_FILE = "gist-check.log"
+TIMESTAMP = arrow.utcnow().strftime("%Y-%m-%d %H:%M:%S")
 
 
 def log_append(text):
@@ -47,6 +49,7 @@ def get_mapping_tuples():
     pat_tuple = re.compile(r"[(][^)]+[)]")
 
     resp = rq.get("https://gist.github.com/bskinn/0e164963428d4b51017cebdb6cda5209")
+    log_append(f"Linkcheck run: {TIMESTAMP}\n\n")
     log_append("Got gist page\n\n")
 
     data = resp.content.decode()

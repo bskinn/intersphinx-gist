@@ -50,9 +50,6 @@ coverage.xml
 *.mo
 *.pot
 
-# Django stuff:
-*.log
-
 # PyBuilder
 target/
 
