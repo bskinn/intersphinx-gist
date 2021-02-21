@@ -1,6 +1,5 @@
 name: gist-cron
 
-# Eventually will switch to cronjob and tunable push trigger
 on: 
   push:
     branches:
