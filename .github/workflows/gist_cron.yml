@@ -7,6 +7,11 @@ on:
   schedule:
     - cron: '14 2 */3 * *'
   workflow_dispatch:
+    inputs:
+      do_commit:
+        description: 'Commit log file back to branch (y/n)?'
+        required: true
+        default: 'n'
 
 
 jobs:
@@ -43,3 +48,13 @@ jobs:
     - name: Report log
       run: |
         cat gist-check.log
+
+    - name: Commit log (depending)
+      env:
+        TRIGGER: ${{ github.event_name }}
+        COMMIT_OPTION: ${{ github.event.inputs.do_commit }}
+      run: |
+        COMMIT_OPTION=$( echo ${COMMIT_OPTION^} | cut -c1-1 )
+        echo TRIGGER is "'"$TRIGGER"'"
+        echo COMMIT_OPTION is "'"$COMMIT_OPTION"'"
+        ./do_commit
