@@ -52,7 +52,7 @@ jobs:
     - name: Commit log (depending)
       env:
         TRIGGER: ${{ github.event_name }}
-        COMMIT_OPTION: ${{ github.event.inputs.name }}
+        COMMIT_OPTION: ${{ github.event.inputs.do_commit }}
       run: |
         echo TRIGGER is $TRIGGER
         echo COMMIT_OPTION is $COMMIT_OPTION
