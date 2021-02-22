@@ -19,6 +19,11 @@ This repo houses a Github Action that runs a small pytest suite, which checks th
  2. The `objects.inv` locations defined by the mappings point to valid inventory files,
     as checked by [`sphobjinv`](https://github.com/bskinn/sphobjinv).
 
+The log file from the most recent workflow execution lives
+[here](https://github.com/bskinn/intersphinx-gist/blob/master/gist-check.log).
+
+
+----
 
 FWIW, if anyone reading this is having any trouble with the mappings in the Gist,
 feel free to open an issue here and I'll be glad to help if I can.

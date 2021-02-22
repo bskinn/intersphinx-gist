@@ -49,7 +49,7 @@ def get_mapping_tuples():
     pat_tuple = re.compile(r"[(][^)]+[)]")
 
     resp = rq.get("https://gist.github.com/bskinn/0e164963428d4b51017cebdb6cda5209")
-    log_append(f"Linkcheck run: {TIMESTAMP}\n\n")
+    log_append(f"Linkcheck run: {TIMESTAMP} UTC\n\n")
     log_append("Got gist page\n\n")
 
     data = resp.content.decode()
