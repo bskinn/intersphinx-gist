@@ -1,7 +1,11 @@
 #! /bin/bash
 
 do_commit () {
+  git config user.name "Brian Skinn"
+  git config user.email "brian.skinn@gmail.com"
+
   git add . && git commit -m "Commit test log - $( date -uIs )"
+  
   if [[ $? -eq 0 ]]
   then
     git push
