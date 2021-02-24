@@ -1,4 +1,4 @@
-Linkcheck run: 2021-02-24 12:14:30 UTC
+Linkcheck run: 2021-02-24 17:09:02 UTC
 
 Got gist page
 
@@ -53,8 +53,8 @@ Anchor 'c.NO_IMPORT_ARRAY' found? True
 
 https://pandas.pydata.org/docs/: 200 OK
 Inventory(project='pandas', version='1.2.2', source_type=<SourceTypes.URL: 'url'>)
-https://pandas.pydata.org/docs/index.html#module-pandas: 200 OK
-Anchor 'module-pandas' found? True
+https://pandas.pydata.org/docs/reference/api/pandas.BooleanDtype.html#pandas.BooleanDtype: 200 OK
+Anchor 'pandas.BooleanDtype' found? True
 
 https://docs.pylonsproject.org/projects/pyramid/en/latest/: 200 OK
 Inventory(project='The Pyramid Web Framework', version='1.10.7', source_type=<SourceTypes.URL: 'url'>)
@@ -63,18 +63,18 @@ Anchor 'flash' found? True
 
 https://scikit-learn.org/stable/: 200 OK
 Inventory(project='scikit-learn', version='0.24', source_type=<SourceTypes.URL: 'url'>)
-https://scikit-learn.org/stable/modules/classes.html#module-sklearn.base: 200 OK
-Anchor 'module-sklearn.base' found? True
+https://scikit-learn.org/stable/modules/generated/sklearn.base.BaseEstimator.html#sklearn.base.BaseEstimator: 200 OK
+Anchor 'sklearn.base.BaseEstimator' found? True
 
 https://docs.scipy.org/doc/scipy/reference/: 200 OK
 Inventory(project='SciPy', version='1.6.1', source_type=<SourceTypes.URL: 'url'>)
-https://docs.scipy.org/doc/scipy/reference/index.html#module-scipy: 200 OK
-Anchor 'module-scipy' found? True
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.LowLevelCallable.html#scipy.LowLevelCallable: 200 OK
+Anchor 'scipy.LowLevelCallable' found? True
 
 https://www.sphinx-doc.org/en/stable/: 200 OK
 Inventory(project='Sphinx', version='4.0.0+', source_type=<SourceTypes.URL: 'url'>)
 https://www.sphinx-doc.org/en/stable/usage/restructuredtext/domains.html#c.@alias.data: 200 OK
-Anchor 'c.@alias.data' found? False
+Anchor 'c.@alias.data' found? True
 
 https://sarge.readthedocs.io/en/latest/: 200 OK
 Inventory(project='Sarge', version='0.1', source_type=<SourceTypes.URL: 'url'>)

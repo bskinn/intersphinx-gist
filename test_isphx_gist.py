@@ -23,12 +23,14 @@ r"""*Module to test link validity in intersphinx mappings gist.*
 """
 
 import re
+from itertools import dropwhile
 from pathlib import Path
 
 import arrow
 import pytest
 import requests as rq
 import sphobjinv as soi
+from bs4 import BeautifulSoup as BSoup
 
 
 pat_domain = re.compile(r"https?://([^/]+)/")
@@ -91,15 +93,19 @@ def test_mapping_objects_inv(mapping_tuple):
     inv = soi.Inventory(url=inv_link)
     log_append(f"{repr(inv)}\n")
 
-    obj_link = mapping_tuple[0] + inv.objects[0].uri_expanded
+    # Interestingly, (some?) module objects don't craft accurate URIs?
+    data_obj = [obj for obj in dropwhile(lambda o: o.role == "module", inv.objects)][0]
+
+    obj_link = mapping_tuple[0] + data_obj.uri_expanded
     obj_resp = rq.get(obj_link)
     log_append(f"{obj_link}: {obj_resp.status_code} {obj_resp.reason}\n")
     assert obj_resp.ok
 
-    anchor = obj_link.partition("#")[2]
-    if anchor:
-        anchor_check = f'"{anchor}"' in obj_resp.content.decode()
-        log_append(f"Anchor '{anchor}' found? {anchor_check}\n\n")
+    soup = BSoup(obj_resp.text, "html.parser")
+
+    if anchor := obj_link.partition("#")[2]:
+        anchor_check = soup.find_all("dt", id=anchor)
+        log_append(f"Anchor '{anchor}' found? {bool(anchor_check)}\n\n")
         assert anchor_check
     else:
         log_append("No anchor in uri")
