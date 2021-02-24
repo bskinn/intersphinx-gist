@@ -47,8 +47,9 @@ def log_append(text):
 
 def get_mapping_tuples():
     """Retrieve intersphinx gist and extract mapping tuples."""
-    resp = rq.get("https://gist.github.com/bskinn/0e164963428d4b51017cebdb6cda5209")
     log_append(f"Linkcheck run: {TIMESTAMP} UTC\n\n")
+
+    resp = rq.get("https://gist.github.com/bskinn/0e164963428d4b51017cebdb6cda5209")
     log_append("Got gist page\n\n")
 
     data = resp.content.decode()
@@ -80,7 +81,7 @@ def mapping_tuple(request):
 def test_mapping_root(mapping_tuple):
     """Check docs root link validity."""
     resp = rq.get(mapping_tuple[0])
-    log_append(f"{mapping_tuple[0]}: {resp.status_code}\n")
+    log_append(f"{mapping_tuple[0]}: {resp.status_code} {resp.reason}\n")
     assert resp.ok
 
 
@@ -88,6 +89,17 @@ def test_mapping_objects_inv(mapping_tuple):
     """Check docs objects.inv link validity."""
     inv_link = mapping_tuple[1] or (mapping_tuple[0].removesuffix("/") + "/objects.inv")
     inv = soi.Inventory(url=inv_link)
-    log_append(f"{repr(inv)}\n\n")
-    assert inv
+    log_append(f"{repr(inv)}\n")
 
+    obj_link = mapping_tuple[0] + inv.objects[0].uri_expanded
+    obj_resp = rq.get(obj_link)
+    log_append(f"{obj_link}: {obj_resp.status_code} {obj_resp.reason}\n")
+    assert obj_resp.ok
+
+    anchor = obj_link.partition("#")[2]
+    if anchor:
+        anchor_check = f'"{anchor}"' in obj_resp.content.decode()
+        log_append(f"Anchor '{anchor}' found? {anchor_check}\n\n")
+        assert anchor_check
+    else:
+        log_append("No anchor in uri")

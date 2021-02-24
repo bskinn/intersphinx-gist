@@ -1,58 +1,83 @@
-
-Linkcheck run: 2021-02-22 21:49:49 UTC
+Linkcheck run: 2021-02-24 12:14:30 UTC
 
 Got gist page
 
-https://docs.python.org/3
+https://docs.python.org/3/
 https://www.attrs.org/en/stable/
 https://docs.djangoproject.com/en/dev/
 https://flask.palletsprojects.com/en/1.1.x/
 https://docs.h5py.org/en/latest/
-https://matplotlib.org/stable
+https://matplotlib.org/stable/
 https://numpy.org/doc/stable/
 https://pandas.pydata.org/docs/
 https://docs.pylonsproject.org/projects/pyramid/en/latest/
 https://scikit-learn.org/stable/
-https://docs.scipy.org/doc/scipy/reference
+https://docs.scipy.org/doc/scipy/reference/
 https://www.sphinx-doc.org/en/stable/
 https://sarge.readthedocs.io/en/latest/
 
-https://docs.python.org/3: 200
+https://docs.python.org/3/: 200 OK
 Inventory(project='Python', version='3.9', source_type=<SourceTypes.URL: 'url'>)
+https://docs.python.org/3/c-api/veryhigh.html#c.CO_FUTURE_DIVISION: 200 OK
+Anchor 'c.CO_FUTURE_DIVISION' found? True
 
-https://www.attrs.org/en/stable/: 200
+https://www.attrs.org/en/stable/: 200 OK
 Inventory(project='attrs', version='20.3', source_type=<SourceTypes.URL: 'url'>)
+https://www.attrs.org/en/stable/api.html#attr.Attribute: 200 OK
+Anchor 'attr.Attribute' found? True
 
-https://docs.djangoproject.com/en/dev/: 200
+https://docs.djangoproject.com/en/dev/: 200 OK
 Inventory(project='Django', version='4.0', source_type=<SourceTypes.URL: 'url'>)
+https://docs.djangoproject.com/en/dev/ref/class-based-views/flattened-index/#ArchiveIndexView: 200 OK
+Anchor 'ArchiveIndexView' found? True
 
-https://flask.palletsprojects.com/en/1.1.x/: 200
+https://flask.palletsprojects.com/en/1.1.x/: 200 OK
 Inventory(project='Flask', version='1.1.x', source_type=<SourceTypes.URL: 'url'>)
+https://flask.palletsprojects.com/en/1.1.x/config/#APPLICATION_ROOT: 200 OK
+Anchor 'APPLICATION_ROOT' found? True
 
-https://docs.h5py.org/en/latest/: 200
+https://docs.h5py.org/en/latest/: 200 OK
 Inventory(project='h5py', version='3.1', source_type=<SourceTypes.URL: 'url'>)
+https://docs.h5py.org/en/latest/high/attr.html#h5py.AttributeManager: 200 OK
+Anchor 'h5py.AttributeManager' found? True
 
-https://matplotlib.org/stable: 200
+https://matplotlib.org/stable/: 200 OK
 Inventory(project='Matplotlib', version='3.3.4', source_type=<SourceTypes.URL: 'url'>)
+https://matplotlib.org/stable/api/matplotlib_configuration_api.html#matplotlib.RcParams: 200 OK
+Anchor 'matplotlib.RcParams' found? True
 
-https://numpy.org/doc/stable/: 200
+https://numpy.org/doc/stable/: 200 OK
 Inventory(project='NumPy', version='1.20', source_type=<SourceTypes.URL: 'url'>)
+https://numpy.org/doc/stable/reference/c-api/array.html#c.NO_IMPORT_ARRAY: 200 OK
+Anchor 'c.NO_IMPORT_ARRAY' found? True
 
-https://pandas.pydata.org/docs/: 200
+https://pandas.pydata.org/docs/: 200 OK
 Inventory(project='pandas', version='1.2.2', source_type=<SourceTypes.URL: 'url'>)
+https://pandas.pydata.org/docs/index.html#module-pandas: 200 OK
+Anchor 'module-pandas' found? True
 
-https://docs.pylonsproject.org/projects/pyramid/en/latest/: 200
+https://docs.pylonsproject.org/projects/pyramid/en/latest/: 200 OK
 Inventory(project='The Pyramid Web Framework', version='1.10.7', source_type=<SourceTypes.URL: 'url'>)
+https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/sessions.html#flash: 200 OK
+Anchor 'flash' found? True
 
-https://scikit-learn.org/stable/: 200
+https://scikit-learn.org/stable/: 200 OK
 Inventory(project='scikit-learn', version='0.24', source_type=<SourceTypes.URL: 'url'>)
+https://scikit-learn.org/stable/modules/classes.html#module-sklearn.base: 200 OK
+Anchor 'module-sklearn.base' found? True
 
-https://docs.scipy.org/doc/scipy/reference: 200
+https://docs.scipy.org/doc/scipy/reference/: 200 OK
 Inventory(project='SciPy', version='1.6.1', source_type=<SourceTypes.URL: 'url'>)
+https://docs.scipy.org/doc/scipy/reference/index.html#module-scipy: 200 OK
+Anchor 'module-scipy' found? True
 
-https://www.sphinx-doc.org/en/stable/: 200
+https://www.sphinx-doc.org/en/stable/: 200 OK
 Inventory(project='Sphinx', version='4.0.0+', source_type=<SourceTypes.URL: 'url'>)
+https://www.sphinx-doc.org/en/stable/usage/restructuredtext/domains.html#c.@alias.data: 200 OK
+Anchor 'c.@alias.data' found? False
 
-https://sarge.readthedocs.io/en/latest/: 200
+https://sarge.readthedocs.io/en/latest/: 200 OK
 Inventory(project='Sarge', version='0.1', source_type=<SourceTypes.URL: 'url'>)
+https://sarge.readthedocs.io/en/latest/reference.html#Capture: 200 OK
+Anchor 'Capture' found? True
 
