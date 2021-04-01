@@ -1,5 +1,5 @@
 
-Linkcheck run: 2021-03-31 02:51:49 UTC
+Linkcheck run: 2021-04-01 02:53:50 UTC
 
 Got gist page
 
@@ -43,7 +43,7 @@ https://docs.h5py.org/en/latest/high/attr.html#h5py.AttributeManager: 200 OK
 Anchor 'h5py.AttributeManager' found? True
 
 https://matplotlib.org/stable/: 200 OK
-Inventory(project='Matplotlib', version='3.4.0', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='Matplotlib', version='3.4.1', source_type=<SourceTypes.URL: 'url'>)
 https://matplotlib.org/stable/api/matplotlib_configuration_api.html#matplotlib.RcParams: 200 OK
 Anchor 'matplotlib.RcParams' found? True
 
