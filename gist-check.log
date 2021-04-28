@@ -1,5 +1,5 @@
 
-Linkcheck run: 2021-04-25 02:55:37 UTC
+Linkcheck run: 2021-04-28 02:53:28 UTC
 
 Got gist page
 
@@ -68,7 +68,7 @@ https://scikit-learn.org/stable/modules/generated/sklearn.base.BaseEstimator.htm
 Anchor 'sklearn.base.BaseEstimator' found? True
 
 https://docs.scipy.org/doc/scipy/reference/: 200 OK
-Inventory(project='SciPy', version='1.6.2', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='SciPy', version='1.6.3', source_type=<SourceTypes.URL: 'url'>)
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.LowLevelCallable.html#scipy.LowLevelCallable: 200 OK
 Anchor 'scipy.LowLevelCallable' found? True
 
