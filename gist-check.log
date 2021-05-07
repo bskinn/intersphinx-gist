@@ -1,5 +1,5 @@
 
-Linkcheck run: 2021-05-04 02:50:42 UTC
+Linkcheck run: 2021-05-07 02:52:56 UTC
 
 Got gist page
 
@@ -23,7 +23,7 @@ https://docs.python.org/3/c-api/veryhigh.html#c.CO_FUTURE_DIVISION: 200 OK
 Anchor 'c.CO_FUTURE_DIVISION' found? True
 
 https://www.attrs.org/en/stable/: 200 OK
-Inventory(project='attrs', version='20.3', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='attrs', version='21.1', source_type=<SourceTypes.URL: 'url'>)
 https://www.attrs.org/en/stable/api.html#attr.Attribute: 200 OK
 Anchor 'attr.Attribute' found? True
 
