@@ -1,5 +1,5 @@
 
-Linkcheck run: 2021-05-07 02:52:56 UTC
+Linkcheck run: 2021-05-10 02:56:23 UTC
 
 Got gist page
 
@@ -23,7 +23,7 @@ https://docs.python.org/3/c-api/veryhigh.html#c.CO_FUTURE_DIVISION: 200 OK
 Anchor 'c.CO_FUTURE_DIVISION' found? True
 
 https://www.attrs.org/en/stable/: 200 OK
-Inventory(project='attrs', version='21.1', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='attrs', version='21.2', source_type=<SourceTypes.URL: 'url'>)
 https://www.attrs.org/en/stable/api.html#attr.Attribute: 200 OK
 Anchor 'attr.Attribute' found? True
 
@@ -43,7 +43,7 @@ https://docs.h5py.org/en/latest/high/attr.html#h5py.AttributeManager: 200 OK
 Anchor 'h5py.AttributeManager' found? True
 
 https://matplotlib.org/stable/: 200 OK
-Inventory(project='Matplotlib', version='3.4.1', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='Matplotlib', version='3.4.2', source_type=<SourceTypes.URL: 'url'>)
 https://matplotlib.org/stable/api/matplotlib_configuration_api.html#matplotlib.RcParams: 200 OK
 Anchor 'matplotlib.RcParams' found? True
 
