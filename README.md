@@ -20,7 +20,7 @@ This repo houses a Github Action that runs a small pytest suite, which checks th
     as checked by [`sphobjinv`](https://github.com/bskinn/sphobjinv).
 
 The log file from the most recent workflow execution lives
-[here](https://github.com/bskinn/intersphinx-gist/blob/master/gist-check.log).
+[here](https://github.com/bskinn/intersphinx-gist/blob/main/gist-check.log).
 
 
 ----
@@ -33,5 +33,5 @@ feel free to open an issue here and I'll be glad to help if I can.
 
 Copyright (c) Brian Skinn 2021
 
-License: The MIT License. See [`LICENSE.txt`](https://github.com/bskinn/intersphinx-gist/blob/master/LICENSE.txt)
+License: The MIT License. See [`LICENSE.txt`](https://github.com/bskinn/intersphinx-gist/blob/main/LICENSE.txt)
 for full license terms.
