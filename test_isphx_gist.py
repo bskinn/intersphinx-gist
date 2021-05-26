@@ -49,6 +49,7 @@ def log_append(text):
 
 def get_gist_data():
     """Retrieve intersphinx gist contents."""
+    print("EXECUTED REQUESTS CALL")
     log_append(f"Linkcheck run: {TIMESTAMP} UTC\n\n")
     resp = rq.get("https://gist.github.com/bskinn/0e164963428d4b51017cebdb6cda5209")
     log_append("Got gist page\n\n")
@@ -71,19 +72,25 @@ def gen_tuples_from_data(data):
 
 def gen_mapping_tuples():
     """Retrieve intersphinx gist and yield mapping tuples."""
+    # Early stop to delay requests gist call from import-time.
+    yield
+
     data = get_gist_data()
     yield from gen_tuples_from_data(data)
 
 
 def make_tuple_id(tup):
     """Generate pytest ID for mapping tuple."""
-    return pat_domain.search(tup[0]).group(1)
+    return pat_domain.search(tup[0]).group(1) if tup else ""
 
 
 @pytest.fixture(scope="session", params=gen_mapping_tuples(), ids=make_tuple_id)
 def mapping_tuple(request):
     """Supply the mapping tuples singly to a test function."""
-    return request.param
+    if request.param:
+        return request.param
+    else:
+        pytest.skip("Null initial param for delayed requests.get() call")
 
 
 def test_mapping_root(mapping_tuple):
