@@ -47,34 +47,40 @@ def log_append(text):
         f.write(text)
 
 
-def get_mapping_tuples():
-    """Retrieve intersphinx gist and extract mapping tuples."""
+def get_gist_data():
+    """Retrieve intersphinx gist contents."""
     log_append(f"Linkcheck run: {TIMESTAMP} UTC\n\n")
-
     resp = rq.get("https://gist.github.com/bskinn/0e164963428d4b51017cebdb6cda5209")
     log_append("Got gist page\n\n")
-
     data = resp.content.decode()
+    return data
+
+
+def gen_tuples_from_data(data):
+    """Yield each tuple of mapping data from the data text."""
     mchs = list(pat_line.finditer(data))
 
-    submchs = [
-        sm.group(0).replace("&#39;", "'")
-        for sm in [pat_tuple.search(m.group(0)) for m in mchs]
-    ]
+    for sm in [pat_tuple.search(m.group(0)) for m in mchs]:
+        sm = sm.group(0).replace("&#39;", "'")
+        tup = eval(sm)
+        log_append(tup[0] + "\n")
+        yield tup
 
-    tups = [eval(sm) for sm in submchs]
-
-    [log_append(t[0] + "\n") for t in tups]
     log_append("\n")
 
-    return tups
+
+def gen_mapping_tuples():
+    """Retrieve intersphinx gist and yield mapping tuples."""
+    data = get_gist_data()
+    yield from gen_tuples_from_data(data)
 
 
-mapping_tuples_list = get_mapping_tuples()
-mapping_tuple_ids = [pat_domain.search(t[0]).group(1) for t in mapping_tuples_list]
+def make_tuple_id(tup):
+    """Generate pytest ID for mapping tuple."""
+    return pat_domain.search(tup[0]).group(1)
 
 
-@pytest.fixture(scope="session", params=mapping_tuples_list, ids=mapping_tuple_ids)
+@pytest.fixture(scope="session", params=gen_mapping_tuples(), ids=make_tuple_id)
 def mapping_tuple(request):
     """Supply the mapping tuples singly to a test function."""
     return request.param
