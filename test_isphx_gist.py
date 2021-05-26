@@ -65,6 +65,7 @@ def gen_tuples_from_data(data):
         sm = sm.group(0).replace("&#39;", "'")
         tup = eval(sm)
         log_append(tup[0] + "\n")
+        print(tup)
         yield tup
 
     log_append("\n")
@@ -73,7 +74,7 @@ def gen_tuples_from_data(data):
 def gen_mapping_tuples():
     """Retrieve intersphinx gist and yield mapping tuples."""
     # Early stop to delay requests gist call from import-time.
-    yield
+    # yield
 
     data = get_gist_data()
     yield from gen_tuples_from_data(data)
