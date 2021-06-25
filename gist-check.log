@@ -1,5 +1,5 @@
 
-Linkcheck run: 2021-06-22 02:44:19 UTC
+Linkcheck run: 2021-06-25 02:41:35 UTC
 
 Got gist page
 
@@ -38,7 +38,7 @@ https://flask.palletsprojects.com/en/1.1.x/config/#APPLICATION_ROOT: 200 OK
 Anchor 'APPLICATION_ROOT' found? True
 
 https://docs.h5py.org/en/latest/: 200 OK
-Inventory(project='h5py', version='3.2', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='h5py', version='3.3', source_type=<SourceTypes.URL: 'url'>)
 https://docs.h5py.org/en/latest/high/attr.html#h5py.AttributeManager: 200 OK
 Anchor 'h5py.AttributeManager' found? True
 
@@ -48,12 +48,12 @@ https://matplotlib.org/stable/api/matplotlib_configuration_api.html#matplotlib.R
 Anchor 'matplotlib.RcParams' found? True
 
 https://numpy.org/doc/stable/: 200 OK
-Inventory(project='NumPy', version='1.20', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='NumPy', version='1.21', source_type=<SourceTypes.URL: 'url'>)
 https://numpy.org/doc/stable/reference/c-api/array.html#c.NO_IMPORT_ARRAY: 200 OK
 Anchor 'c.NO_IMPORT_ARRAY' found? True
 
 https://pandas.pydata.org/docs/: 200 OK
-Inventory(project='pandas', version='1.2.4', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='pandas', version='1.2.5', source_type=<SourceTypes.URL: 'url'>)
 https://pandas.pydata.org/docs/reference/api/pandas.BooleanDtype.html#pandas.BooleanDtype: 200 OK
 Anchor 'pandas.BooleanDtype' found? True
 
