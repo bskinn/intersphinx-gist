@@ -1,5 +1,5 @@
 
-Linkcheck run: 2021-08-01 02:39:20 UTC
+Linkcheck run: 2021-08-03 01:34:20 UTC
 
 Got gist page
 
@@ -13,7 +13,7 @@ https://numpy.org/doc/stable/
 https://pandas.pydata.org/docs/
 https://docs.pylonsproject.org/projects/pyramid/en/latest/
 https://scikit-learn.org/stable/
-https://docs.scipy.org/doc/scipy/reference/
+https://docs.scipy.org/doc/scipy/
 https://www.sphinx-doc.org/en/stable/
 https://sarge.readthedocs.io/en/latest/
 
@@ -67,10 +67,10 @@ Inventory(project='scikit-learn', version='0.24', source_type=<SourceTypes.URL: 
 https://scikit-learn.org/stable/modules/generated/sklearn.base.BaseEstimator.html#sklearn.base.BaseEstimator: 200 OK
 Anchor 'sklearn.base.BaseEstimator' found? True
 
-https://docs.scipy.org/doc/scipy/reference/: 200 OK
-Inventory(project='SciPy', version='1.7.0', source_type=<SourceTypes.URL: 'url'>)
-https://docs.scipy.org/doc/scipy/reference/reference/generated/scipy.LowLevelCallable.html#scipy.LowLevelCallable: 200 OK
-Anchor 'scipy.LowLevelCallable' found? True
+https://docs.scipy.org/doc/scipy/: 200 OK
+Inventory(project='SciPy', version='1.7.1', source_type=<SourceTypes.URL: 'url'>)
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.linalg.SuperLU.html#scipy.sparse.linalg.SuperLU: 200 OK
+Anchor 'scipy.sparse.linalg.SuperLU' found? True
 
 https://www.sphinx-doc.org/en/stable/: 200 OK
 Inventory(project='Sphinx', version='5.0.0+', source_type=<SourceTypes.URL: 'url'>)
