@@ -1,5 +1,5 @@
 
-Linkcheck run: 2021-08-22 02:35:45 UTC
+Linkcheck run: 2021-08-25 02:35:49 UTC
 
 Got gist page
 
@@ -38,7 +38,7 @@ https://flask.palletsprojects.com/en/1.1.x/config/#APPLICATION_ROOT: 200 OK
 Anchor 'APPLICATION_ROOT' found? True
 
 https://docs.h5py.org/en/latest/: 200 OK
-Inventory(project='h5py', version='3.3', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='h5py', version='3.4', source_type=<SourceTypes.URL: 'url'>)
 https://docs.h5py.org/en/latest/high/attr.html#h5py.AttributeManager: 200 OK
 Anchor 'h5py.AttributeManager' found? True
 
