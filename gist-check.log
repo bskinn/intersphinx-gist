@@ -1,5 +1,5 @@
 
-Linkcheck run: 2021-10-04 02:39:42 UTC
+Linkcheck run: 2021-10-07 02:39:06 UTC
 
 Got gist page
 
@@ -18,7 +18,7 @@ https://www.sphinx-doc.org/en/stable/
 https://sarge.readthedocs.io/en/latest/
 
 https://docs.python.org/3/: 200 OK
-Inventory(project='Python', version='3.9', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='Python', version='3.10', source_type=<SourceTypes.URL: 'url'>)
 https://docs.python.org/3/c-api/veryhigh.html#c.CO_FUTURE_DIVISION: 200 OK
 Anchor 'c.CO_FUTURE_DIVISION' found? True
 
