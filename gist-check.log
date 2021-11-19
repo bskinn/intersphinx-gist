@@ -1,5 +1,5 @@
 
-Linkcheck run: 2021-11-16 02:40:01 UTC
+Linkcheck run: 2021-11-19 02:41:15 UTC
 
 Got gist page
 
@@ -38,14 +38,14 @@ https://flask.palletsprojects.com/en/1.1.x/config/#APPLICATION_ROOT: 200 OK
 Anchor 'APPLICATION_ROOT' found? True
 
 https://docs.h5py.org/en/latest/: 200 OK
-Inventory(project='h5py', version='3.5', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='h5py', version='3.6', source_type=<SourceTypes.URL: 'url'>)
 https://docs.h5py.org/en/latest/high/attr.html#h5py.AttributeManager: 200 OK
 Anchor 'h5py.AttributeManager' found? True
 
 https://matplotlib.org/stable/: 200 OK
-Inventory(project='Matplotlib', version='3.4.3', source_type=<SourceTypes.URL: 'url'>)
-https://matplotlib.org/stable/api/matplotlib_configuration_api.html#matplotlib.RcParams: 200 OK
-Anchor 'matplotlib.RcParams' found? True
+Inventory(project='Matplotlib', version='3.5.0', source_type=<SourceTypes.URL: 'url'>)
+https://matplotlib.org/stable/api/dates_api.html#matplotlib.dates.relativedelta: 200 OK
+Anchor 'matplotlib.dates.relativedelta' found? True
 
 https://numpy.org/doc/stable/: 200 OK
 Inventory(project='NumPy', version='1.21', source_type=<SourceTypes.URL: 'url'>)
