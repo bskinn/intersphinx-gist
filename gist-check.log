@@ -1,9 +1,10 @@
 
-Linkcheck run: 2022-02-07 21:27:03 UTC
+Linkcheck run: 2022-02-08 22:18:53 UTC
 
 Got gist page
 
 https://docs.python.org/3/
+https://docs.python.org/3.9/
 https://www.attrs.org/en/stable/
 https://docs.djangoproject.com/en/dev/
 https://flask.palletsprojects.com/en/1.1.x/
@@ -22,6 +23,11 @@ https://sarge.readthedocs.io/en/latest/
 https://docs.python.org/3/: 200 OK
 Inventory(project='Python', version='3.10', source_type=<SourceTypes.URL: 'url'>)
 https://docs.python.org/3/c-api/veryhigh.html#c.CO_FUTURE_DIVISION: 200 OK
+Anchor 'c.CO_FUTURE_DIVISION' found? True
+
+https://docs.python.org/3.9/: 200 OK
+Inventory(project='Python', version='3.9', source_type=<SourceTypes.URL: 'url'>)
+https://docs.python.org/3.9/c-api/veryhigh.html#c.CO_FUTURE_DIVISION: 200 OK
 Anchor 'c.CO_FUTURE_DIVISION' found? True
 
 https://www.attrs.org/en/stable/: 200 OK
