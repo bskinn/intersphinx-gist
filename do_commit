@@ -14,8 +14,12 @@ do_commit () {
 
 if [[ $TRIGGER = "schedule" ]]
 then
-  do_commit
-  exit 0
+  python -m time_check
+  if [[ $? -gt 0 ]]
+  then
+    do_commit
+    exit 0
+  fi
 fi
 
 if [[ $TRIGGER = "workflow_dispatch" && $COMMIT_OPTION = "Y" ]]
