@@ -19,7 +19,8 @@ This repo houses a Github Action that runs a small pytest suite, which checks th
  2. The `objects.inv` locations defined by the mappings point to valid inventory files,
     as checked by [`sphobjinv`](https://github.com/bskinn/sphobjinv).
 
-The log file from the most recent workflow execution lives
+The workflow is currently configured to run once every four hours. The log file from the workflow
+is committed back to the repo every Sunday at roughly 0115 UTC; it lives
 [here](https://github.com/bskinn/intersphinx-gist/blob/main/gist-check.log).
 
 
