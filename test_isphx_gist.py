@@ -7,7 +7,7 @@ r"""*Module to test link validity in intersphinx mappings gist.*
     18 Feb 2021
 
 **Copyright**
-    \(c) Brian Skinn 2021
+    \(c) Brian Skinn 2021-2022
 
 **Source Repository**
     http://www.github.com/bskinn/intersphinx-gist
