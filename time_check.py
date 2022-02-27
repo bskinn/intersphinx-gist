@@ -34,7 +34,7 @@ def main() -> int:
     """
     now = datetime.datetime.utcnow()
 
-    return 1 if (now.weekday == 6 and 0 <= now.hour < 2) else 0
+    return 1 if (now.weekday() == 6 and 0 <= now.hour < 2) else 0
 
 
 if __name__ == "__main__":
