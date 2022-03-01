@@ -5,7 +5,7 @@ on:
     branches:
       - test-*
   schedule:
-    - cron: '15 1-21/4 * * *'
+    - cron: '15 1,13 * * *'
   workflow_dispatch:
     inputs:
       do_commit:
