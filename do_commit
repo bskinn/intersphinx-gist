@@ -17,7 +17,11 @@ then
   python -m time_check
   if [[ $? -gt 0 ]]
   then
+    echo "Within commit time window, committing log"
     do_commit
+    exit 0
+  else
+    echo "Outside commit time window, no commit"
     exit 0
   fi
 fi
