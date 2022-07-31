@@ -1,5 +1,5 @@
 
-Linkcheck run: 2022-07-24 01:56:05 UTC
+Linkcheck run: 2022-07-31 01:56:23 UTC
 
 Got gist page
 
@@ -15,6 +15,7 @@ https://pandas.pydata.org/docs/
 https://docs.pylonsproject.org/projects/pyramid/en/latest/
 https://scikit-learn.org/stable/
 https://www.sphinx-doc.org/en/stable/
+https://docs.sympy.org/latest/
 https://docs.scipy.org/doc/scipy/
 https://docs.scipy.org/doc/scipy-1.8.1/
 https://docs.scipy.org/doc/scipy-1.8.0/
@@ -34,7 +35,7 @@ https://docs.python.org/3.9/c-api/veryhigh.html#c.CO_FUTURE_DIVISION: 200 OK
 Anchor 'c.CO_FUTURE_DIVISION' found? True
 
 https://www.attrs.org/en/stable/: 200 OK
-Inventory(project='attrs', version='21.4', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='attrs', version='22.1', source_type=<SourceTypes.URL: 'url'>)
 https://www.attrs.org/en/stable/api.html#attr.VersionInfo: 200 OK
 Anchor 'attr.VersionInfo' found? True
 
@@ -83,8 +84,13 @@ Inventory(project='Sphinx', version='6.0.0', source_type=<SourceTypes.URL: 'url'
 https://www.sphinx-doc.org/en/stable/usage/restructuredtext/domains.html#c.@alias.data: 200 OK
 Anchor 'c.@alias.data' found? True
 
+https://docs.sympy.org/latest/: 200 OK
+Inventory(project='SymPy', version='1.10.1', source_type=<SourceTypes.URL: 'url'>)
+https://docs.sympy.org/latest/modules/algebras.html#sympy.algebras.Quaternion: 200 OK
+Anchor 'sympy.algebras.Quaternion' found? True
+
 https://docs.scipy.org/doc/scipy/: 200 OK
-Inventory(project='SciPy', version='1.8.1', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='SciPy', version='1.9.0', source_type=<SourceTypes.URL: 'url'>)
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.linalg.SuperLU.html#scipy.sparse.linalg.SuperLU: 200 OK
 Anchor 'scipy.sparse.linalg.SuperLU' found? True
 
