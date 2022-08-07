@@ -1,5 +1,5 @@
 
-Linkcheck run: 2022-07-31 01:56:23 UTC
+Linkcheck run: 2022-08-07 01:57:11 UTC
 
 Got gist page
 
@@ -7,6 +7,7 @@ https://docs.python.org/3/
 https://docs.python.org/3.9/
 https://www.attrs.org/en/stable/
 https://docs.djangoproject.com/en/dev/
+https://flask.palletsprojects.com/en/2.2.x/
 https://flask.palletsprojects.com/en/1.1.x/
 https://docs.h5py.org/en/latest/
 https://matplotlib.org/stable/
@@ -43,6 +44,11 @@ https://docs.djangoproject.com/en/dev/: 200 OK
 Inventory(project='Django', version='4.2', source_type=<SourceTypes.URL: 'url'>)
 https://docs.djangoproject.com/en/dev/ref/class-based-views/flattened-index/#ArchiveIndexView: 200 OK
 Anchor 'ArchiveIndexView' found? True
+
+https://flask.palletsprojects.com/en/2.2.x/: 200 OK
+Inventory(project='Flask', version='2.2.x', source_type=<SourceTypes.URL: 'url'>)
+https://flask.palletsprojects.com/en/2.2.x/config/#APPLICATION_ROOT: 200 OK
+Anchor 'APPLICATION_ROOT' found? True
 
 https://flask.palletsprojects.com/en/1.1.x/: 200 OK
 Inventory(project='Flask', version='1.1.x', source_type=<SourceTypes.URL: 'url'>)
