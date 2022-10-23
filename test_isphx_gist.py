@@ -100,7 +100,7 @@ def test_mapping_objects_inv(mapping_tuple):
     log_append(f"{repr(inv)}\n")
 
     # Interestingly, (some?) module objects don't craft accurate URIs?
-    data_obj = [obj for obj in dropwhile(lambda o: o.role == "module", inv.objects)][0]
+    data_obj = next(obj for obj in dropwhile(lambda o: o.role == "module", inv.objects))
 
     obj_link = mapping_tuple[0] + data_obj.uri_expanded
     obj_resp = rq.get(obj_link)
