@@ -1,5 +1,5 @@
 
-Linkcheck run: 2022-10-16 01:56:31 UTC
+Linkcheck run: 2022-10-23 01:56:08 UTC
 
 Got gist page
 
@@ -71,7 +71,7 @@ https://numpy.org/doc/stable/reference/c-api/array.html#c.NO_IMPORT_ARRAY: 200 O
 Anchor 'c.NO_IMPORT_ARRAY' found? True
 
 https://pandas.pydata.org/docs/: 200 OK
-Inventory(project='pandas', version='1.5.0', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='pandas', version='1.5.1', source_type=<SourceTypes.URL: 'url'>)
 https://pandas.pydata.org/docs/reference/api/pandas.ArrowDtype.html#pandas.ArrowDtype: 200 OK
 Anchor 'pandas.ArrowDtype' found? True
 
@@ -86,7 +86,7 @@ https://scikit-learn.org/stable/modules/generated/sklearn.base.BaseEstimator.htm
 Anchor 'sklearn.base.BaseEstimator' found? True
 
 https://www.sphinx-doc.org/en/stable/: 200 OK
-Inventory(project='Sphinx', version='6.0.0', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='Sphinx', version='6.0.0b3', source_type=<SourceTypes.URL: 'url'>)
 https://www.sphinx-doc.org/en/stable/usage/restructuredtext/domains.html#c.@alias.data: 200 OK
 Anchor 'c.@alias.data' found? True
 
@@ -96,7 +96,7 @@ https://docs.sympy.org/latest/modules/algebras.html#sympy.algebras.Quaternion: 2
 Anchor 'sympy.algebras.Quaternion' found? True
 
 https://docs.scipy.org/doc/scipy/: 200 OK
-Inventory(project='SciPy', version='1.9.2', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='SciPy', version='1.9.3', source_type=<SourceTypes.URL: 'url'>)
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.linalg.SuperLU.html#scipy.sparse.linalg.SuperLU: 200 OK
 Anchor 'scipy.sparse.linalg.SuperLU' found? True
 
