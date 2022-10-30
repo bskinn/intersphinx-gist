@@ -1,5 +1,5 @@
 
-Linkcheck run: 2022-10-23 01:56:08 UTC
+Linkcheck run: 2022-10-30 01:56:29 UTC
 
 Got gist page
 
@@ -26,7 +26,7 @@ https://docs.scipy.org/doc/scipy-1.6.3/reference/
 https://sarge.readthedocs.io/en/latest/
 
 https://docs.python.org/3/: 200 OK
-Inventory(project='Python', version='3.10', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='Python', version='3.11', source_type=<SourceTypes.URL: 'url'>)
 https://docs.python.org/3/c-api/veryhigh.html#c.CO_FUTURE_DIVISION: 200 OK
 Anchor 'c.CO_FUTURE_DIVISION' found? True
 
