@@ -1,5 +1,5 @@
 
-Linkcheck run: 2022-12-04 01:51:47 UTC
+Linkcheck run: 2022-12-11 01:54:12 UTC
 
 Got gist page
 
@@ -81,7 +81,7 @@ https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/sessions.html#fla
 Anchor 'flash' found? True
 
 https://scikit-learn.org/stable/: 200 OK
-Inventory(project='scikit-learn', version='1.1', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='scikit-learn', version='1.2', source_type=<SourceTypes.URL: 'url'>)
 https://scikit-learn.org/stable/modules/generated/sklearn.base.BaseEstimator.html#sklearn.base.BaseEstimator: 200 OK
 Anchor 'sklearn.base.BaseEstimator' found? True
 
