@@ -1,5 +1,5 @@
 
-Linkcheck run: 2022-12-18 01:47:55 UTC
+Linkcheck run: 2022-12-25 01:50:15 UTC
 
 Got gist page
 
@@ -36,7 +36,7 @@ https://docs.python.org/3.9/c-api/veryhigh.html#c.CO_FUTURE_DIVISION: 200 OK
 Anchor 'c.CO_FUTURE_DIVISION' found? True
 
 https://www.attrs.org/en/stable/: 200 OK
-Inventory(project='attrs', version='22.1', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='attrs', version='22.2', source_type=<SourceTypes.URL: 'url'>)
 https://www.attrs.org/en/stable/api.html#attr.VersionInfo: 200 OK
 Anchor 'attr.VersionInfo' found? True
 
@@ -66,7 +66,7 @@ https://matplotlib.org/stable/api/dates_api.html#matplotlib.dates.relativedelta:
 Anchor 'matplotlib.dates.relativedelta' found? True
 
 https://numpy.org/doc/stable/: 200 OK
-Inventory(project='NumPy', version='1.23', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='NumPy', version='1.24', source_type=<SourceTypes.URL: 'url'>)
 https://numpy.org/doc/stable/reference/c-api/array.html#c.NO_IMPORT_ARRAY: 200 OK
 Anchor 'c.NO_IMPORT_ARRAY' found? True
 
