@@ -1,5 +1,5 @@
 
-Linkcheck run: 2023-06-11 01:56:16 UTC
+Linkcheck run: 2023-06-18 01:55:12 UTC
 
 Got gist page
 
@@ -66,7 +66,7 @@ https://matplotlib.org/stable/api/dates_api.html#matplotlib.dates.relativedelta:
 Anchor 'matplotlib.dates.relativedelta' found? True
 
 https://numpy.org/doc/stable/: 200 OK
-Inventory(project='NumPy', version='1.24', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='NumPy', version='1.25', source_type=<SourceTypes.URL: 'url'>)
 https://numpy.org/doc/stable/reference/c-api/array.html#c.NO_IMPORT_ARRAY: 200 OK
 Anchor 'c.NO_IMPORT_ARRAY' found? True
 
@@ -127,6 +127,6 @@ Anchor 'scipy.LowLevelCallable' found? True
 
 https://sarge.readthedocs.io/en/latest/: 200 OK
 Inventory(project='Sarge', version='0.1', source_type=<SourceTypes.URL: 'url'>)
-https://sarge.readthedocs.io/en/latest/reference.html#Capture: 200 OK
-Anchor 'Capture' found? True
+https://sarge.readthedocs.io/en/latest/reference.html#sarge.Capture: 200 OK
+Anchor 'sarge.Capture' found? True
 
