@@ -1,5 +1,5 @@
 
-Linkcheck run: 2023-08-20 01:35:24 UTC
+Linkcheck run: 2023-08-27 01:36:39 UTC
 
 Got gist page
 
@@ -76,7 +76,7 @@ https://pandas.pydata.org/docs/reference/api/pandas.ArrowDtype.html#pandas.Arrow
 Anchor 'pandas.ArrowDtype' found? True
 
 https://docs.pylonsproject.org/projects/pyramid/en/latest/: 200 OK
-Inventory(project='The Pyramid Web Framework', version='2.0.1', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='The Pyramid Web Framework', version='2.0.2', source_type=<SourceTypes.URL: 'url'>)
 https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/sessions.html#flash: 200 OK
 Anchor 'flash' found? True
 
@@ -86,7 +86,7 @@ https://scikit-learn.org/stable/modules/generated/sklearn.base.BaseEstimator.htm
 Anchor 'sklearn.base.BaseEstimator' found? True
 
 https://www.sphinx-doc.org/en/master/: 200 OK
-Inventory(project='Sphinx', version='7.2.2', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='Sphinx', version='7.2.4', source_type=<SourceTypes.URL: 'url'>)
 https://www.sphinx-doc.org/en/master/usage/restructuredtext/domains.html#c.@alias.data: 200 OK
 Anchor 'c.@alias.data' found? True
 
