@@ -1,5 +1,5 @@
 
-Linkcheck run: 2023-09-10 01:37:25 UTC
+Linkcheck run: 2023-09-17 01:37:41 UTC
 
 Got gist page
 
@@ -61,12 +61,12 @@ https://docs.h5py.org/en/latest/high/attr.html#h5py.AttributeManager: 200 OK
 Anchor 'h5py.AttributeManager' found? True
 
 https://matplotlib.org/stable/: 200 OK
-Inventory(project='Matplotlib', version='3.7.2', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='Matplotlib', version='3.8.0', source_type=<SourceTypes.URL: 'url'>)
 https://matplotlib.org/stable/api/dates_api.html#matplotlib.dates.relativedelta: 200 OK
 Anchor 'matplotlib.dates.relativedelta' found? True
 
 https://numpy.org/doc/stable/: 200 OK
-Inventory(project='NumPy', version='1.25', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='NumPy', version='1.26', source_type=<SourceTypes.URL: 'url'>)
 https://numpy.org/doc/stable/reference/c-api/array.html#c.NO_IMPORT_ARRAY: 200 OK
 Anchor 'c.NO_IMPORT_ARRAY' found? True
 
@@ -86,7 +86,7 @@ https://scikit-learn.org/stable/modules/generated/sklearn.base.BaseEstimator.htm
 Anchor 'sklearn.base.BaseEstimator' found? True
 
 https://www.sphinx-doc.org/en/master/: 200 OK
-Inventory(project='Sphinx', version='7.2.5', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='Sphinx', version='7.3.0', source_type=<SourceTypes.URL: 'url'>)
 https://www.sphinx-doc.org/en/master/usage/restructuredtext/domains.html#c.@alias.data: 200 OK
 Anchor 'c.@alias.data' found? True
 
