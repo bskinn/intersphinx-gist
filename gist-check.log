@@ -1,5 +1,5 @@
 
-Linkcheck run: 2023-09-17 01:37:41 UTC
+Linkcheck run: 2023-09-24 01:38:06 UTC
 
 Got gist page
 
@@ -41,7 +41,7 @@ https://www.attrs.org/en/stable/api-attr.html#attr.Attribute: 200 OK
 Anchor 'attr.Attribute' found? True
 
 https://docs.djangoproject.com/en/dev/: 200 OK
-Inventory(project='Django', version='5.0', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='Django', version='5.1', source_type=<SourceTypes.URL: 'url'>)
 https://docs.djangoproject.com/en/dev/ref/class-based-views/flattened-index/#ArchiveIndexView: 200 OK
 Anchor 'ArchiveIndexView' found? True
 
@@ -71,7 +71,7 @@ https://numpy.org/doc/stable/reference/c-api/array.html#c.NO_IMPORT_ARRAY: 200 O
 Anchor 'c.NO_IMPORT_ARRAY' found? True
 
 https://pandas.pydata.org/docs/: 200 OK
-Inventory(project='pandas', version='2.1.0', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='pandas', version='2.1.1', source_type=<SourceTypes.URL: 'url'>)
 https://pandas.pydata.org/docs/reference/api/pandas.ArrowDtype.html#pandas.ArrowDtype: 200 OK
 Anchor 'pandas.ArrowDtype' found? True
 
