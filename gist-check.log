@@ -1,5 +1,5 @@
 
-Linkcheck run: 2023-10-01 01:41:26 UTC
+Linkcheck run: 2023-10-04 03:37:49 UTC
 
 Got gist page
 
@@ -87,7 +87,7 @@ Anchor 'sklearn.base.BaseEstimator' found? True
 
 https://www.sphinx-doc.org/en/master/: 200 OK
 Inventory(project='Sphinx', version='7.3.0', source_type=<SourceTypes.URL: 'url'>)
-https://www.sphinx-doc.org/en/master/usage/restructuredtext/domains.html#c.@alias.data: 200 OK
+https://www.sphinx-doc.org/en/master/usage/domains/c.html#c.@alias.data: 200 OK
 Anchor 'c.@alias.data' found? True
 
 https://docs.sympy.org/latest/: 200 OK
