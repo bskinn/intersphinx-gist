@@ -1,5 +1,5 @@
 
-Linkcheck run: 2024-04-21 01:39:40 UTC
+Linkcheck run: 2024-04-28 01:40:10 UTC
 
 Got gist page
 
@@ -86,7 +86,7 @@ https://scikit-learn.org/stable/modules/generated/sklearn.base.BaseEstimator.htm
 Anchor 'sklearn.base.BaseEstimator' found? True
 
 https://www.sphinx-doc.org/en/master/: 200 OK
-Inventory(project='Sphinx', version='7.3.7', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='Sphinx', version='7.4.0', source_type=<SourceTypes.URL: 'url'>)
 https://www.sphinx-doc.org/en/master/usage/domains/c.html#c.@alias.data: 200 OK
 Anchor 'c.@alias.data' found? True
 
