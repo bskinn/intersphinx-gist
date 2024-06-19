@@ -3,7 +3,7 @@ attrs==20.3.0
 beautifulsoup4==4.9.3
 black==24.3.0
 certifi==2020.12.5
-chardet==4.0.0
+charset-normalizer==3.3.2
 click==8.1.7
 fuzzywuzzy==0.18.0
 idna==2.10
@@ -18,7 +18,7 @@ py==1.10.0
 pyrsistent==0.17.3
 pytest==6.2.2
 python-dateutil==2.8.1
-requests==2.25.1
+requests==2.32.2
 six==1.15.0
 soupsieve==2.2
 sphobjinv==2.0.1
