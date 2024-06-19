@@ -7,7 +7,7 @@ r"""*Module to provide commit-or-not indicator.*
     23 Feb 2022
 
 **Copyright**
-    \(c) Brian Skinn 2021-2022
+    \(c) Brian Skinn 2021-2024
 
 **Source Repository**
     http://www.github.com/bskinn/intersphinx-gist

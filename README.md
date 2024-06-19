@@ -32,7 +32,7 @@ feel free to open an issue here and I'll be glad to help if I can.
 
 ----
 
-Copyright (c) Brian Skinn 2021-2022
+Copyright (c) Brian Skinn 2021-2024
 
 License: The MIT License. See [`LICENSE.txt`](https://github.com/bskinn/intersphinx-gist/blob/main/LICENSE.txt)
 for full license terms.
