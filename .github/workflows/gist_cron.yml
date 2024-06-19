@@ -1,6 +1,9 @@
 name: gist-cron
 
 on: 
+  pull_request:
+    branches:
+    - main
   push:
     branches:
       - test-*
