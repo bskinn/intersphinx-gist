@@ -1,5 +1,5 @@
 
-Linkcheck run: 2024-07-07 01:46:38 UTC
+Linkcheck run: 2024-07-14 01:47:58 UTC
 
 Got gist page
 
@@ -91,7 +91,7 @@ https://www.sphinx-doc.org/en/master/usage/domains/c.html#c.@alias.data: 200 OK
 Anchor 'c.@alias.data' found? True
 
 https://docs.sympy.org/latest/: 200 OK
-Inventory(project='SymPy', version='1.13.0rc2', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='SymPy', version='1.13.0', source_type=<SourceTypes.URL: 'url'>)
 https://docs.sympy.org/latest/modules/algebras.html#sympy.algebras.Quaternion: 200 OK
 Anchor 'sympy.algebras.Quaternion' found? True
 
