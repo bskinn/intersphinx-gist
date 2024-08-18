@@ -1,5 +1,5 @@
 
-Linkcheck run: 2024-08-11 01:49:12 UTC
+Linkcheck run: 2024-08-18 01:47:52 UTC
 
 Got gist page
 
@@ -61,7 +61,7 @@ https://docs.h5py.org/en/latest/high/attr.html#h5py.AttributeManager: 200 OK
 Anchor 'h5py.AttributeManager' found? True
 
 https://matplotlib.org/stable/: 200 OK
-Inventory(project='Matplotlib', version='3.9.1', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='Matplotlib', version='3.9.2', source_type=<SourceTypes.URL: 'url'>)
 https://matplotlib.org/stable/api/dates_api.html#matplotlib.dates.relativedelta: 200 OK
 Anchor 'matplotlib.dates.relativedelta' found? True
 
@@ -91,7 +91,7 @@ https://www.sphinx-doc.org/en/master/usage/domains/c.html#c.@alias.data: 200 OK
 Anchor 'c.@alias.data' found? True
 
 https://docs.sympy.org/latest/: 200 OK
-Inventory(project='SymPy', version='1.13.1', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='SymPy', version='1.13.2', source_type=<SourceTypes.URL: 'url'>)
 https://docs.sympy.org/latest/modules/algebras.html#sympy.algebras.Quaternion: 200 OK
 Anchor 'sympy.algebras.Quaternion' found? True
 
