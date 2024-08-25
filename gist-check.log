@@ -1,5 +1,5 @@
 
-Linkcheck run: 2024-08-18 01:47:52 UTC
+Linkcheck run: 2024-08-25 01:49:41 UTC
 
 Got gist page
 
@@ -66,7 +66,7 @@ https://matplotlib.org/stable/api/dates_api.html#matplotlib.dates.relativedelta:
 Anchor 'matplotlib.dates.relativedelta' found? True
 
 https://numpy.org/doc/stable/: 200 OK
-Inventory(project='NumPy', version='2.0', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='NumPy', version='2.1', source_type=<SourceTypes.URL: 'url'>)
 https://numpy.org/doc/stable/reference/c-api/array.html#c.NO_IMPORT_ARRAY: 200 OK
 Anchor 'c.NO_IMPORT_ARRAY' found? True
 
@@ -96,7 +96,7 @@ https://docs.sympy.org/latest/modules/algebras.html#sympy.algebras.Quaternion: 2
 Anchor 'sympy.algebras.Quaternion' found? True
 
 https://docs.scipy.org/doc/scipy/: 200 OK
-Inventory(project='SciPy', version='1.14.0', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='SciPy', version='1.14.1', source_type=<SourceTypes.URL: 'url'>)
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.linalg.SuperLU.html#scipy.sparse.linalg.SuperLU: 200 OK
 Anchor 'scipy.sparse.linalg.SuperLU' found? True
 
