@@ -15,7 +15,7 @@ beautifulsoup4==4.12.3
     # via -r requirements.in
 black==24.4.2
     # via -r requirements.in
-certifi==2024.6.2
+certifi==2024.7.4
     # via
     #   requests
     #   sphobjinv
