@@ -1,5 +1,5 @@
 
-Linkcheck run: 2024-09-22 01:54:16 UTC
+Linkcheck run: 2024-09-26 03:20:00 UTC
 
 Got gist page
 
@@ -26,107 +26,107 @@ https://docs.scipy.org/doc/scipy-1.6.3/reference/
 https://sarge.readthedocs.io/en/latest/
 
 https://docs.python.org/3/: 200 OK
-Inventory(project='Python', version='3.12', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='Python', version='3.12', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://docs.python.org/3/c-api/veryhigh.html#c.CO_FUTURE_DIVISION: 200 OK
 Anchor 'c.CO_FUTURE_DIVISION' found? True
 
 https://docs.python.org/3.9/: 200 OK
-Inventory(project='Python', version='3.9', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='Python', version='3.9', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://docs.python.org/3.9/c-api/veryhigh.html#c.CO_FUTURE_DIVISION: 200 OK
 Anchor 'c.CO_FUTURE_DIVISION' found? True
 
 https://www.attrs.org/en/stable/: 200 OK
-Inventory(project='attrs', version='24.2', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='attrs', version='24.2', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://www.attrs.org/en/stable/api-attr.html#attr.Attribute: 200 OK
 Anchor 'attr.Attribute' found? True
 
 https://docs.djangoproject.com/en/dev/: 200 OK
-Inventory(project='Django', version='5.2', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='Django', version='5.2', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://docs.djangoproject.com/en/dev/ref/class-based-views/flattened-index/#ArchiveIndexView: 200 OK
 Anchor 'ArchiveIndexView' found? True
 
 https://flask.palletsprojects.com/en/2.2.x/: 200 OK
-Inventory(project='Flask', version='2.2.x', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='Flask', version='2.2.x', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://flask.palletsprojects.com/en/2.2.x/config/#APPLICATION_ROOT: 200 OK
 Anchor 'APPLICATION_ROOT' found? True
 
 https://flask.palletsprojects.com/en/1.1.x/: 200 OK
-Inventory(project='Flask', version='1.1.x', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='Flask', version='1.1.x', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://flask.palletsprojects.com/en/1.1.x/config/#APPLICATION_ROOT: 200 OK
 Anchor 'APPLICATION_ROOT' found? True
 
 https://docs.h5py.org/en/latest/: 200 OK
-Inventory(project='h5py', version='3.11', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='h5py', version='3.12', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://docs.h5py.org/en/latest/high/attr.html#h5py.AttributeManager: 200 OK
 Anchor 'h5py.AttributeManager' found? True
 
 https://matplotlib.org/stable/: 200 OK
-Inventory(project='Matplotlib', version='3.9.2', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='Matplotlib', version='3.9.2', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://matplotlib.org/stable/api/dates_api.html#matplotlib.dates.relativedelta: 200 OK
 Anchor 'matplotlib.dates.relativedelta' found? True
 
 https://numpy.org/doc/stable/: 200 OK
-Inventory(project='NumPy', version='2.1', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='NumPy', version='2.1', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://numpy.org/doc/stable/reference/c-api/array.html#c.NO_IMPORT_ARRAY: 200 OK
 Anchor 'c.NO_IMPORT_ARRAY' found? True
 
 https://pandas.pydata.org/docs/: 200 OK
-Inventory(project='pandas', version='2.2.3', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='pandas', version='2.2.3', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://pandas.pydata.org/docs/reference/api/pandas.ArrowDtype.html#pandas.ArrowDtype: 200 OK
 Anchor 'pandas.ArrowDtype' found? True
 
 https://docs.pylonsproject.org/projects/pyramid/en/latest/: 200 OK
-Inventory(project='The Pyramid Web Framework', version='2.0.2', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='The Pyramid Web Framework', version='2.0.2', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/sessions.html#flash: 200 OK
 Anchor 'flash' found? True
 
 https://scikit-learn.org/stable/: 200 OK
-Inventory(project='scikit-learn', version='1.5', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='scikit-learn', version='1.5', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://scikit-learn.org/stable/modules/generated/sklearn.base.BaseEstimator.html#sklearn.base.BaseEstimator: 200 OK
 Anchor 'sklearn.base.BaseEstimator' found? True
 
 https://www.sphinx-doc.org/en/master/: 200 OK
-Inventory(project='Sphinx', version='8.1.0', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='Sphinx', version='8.1.0', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://www.sphinx-doc.org/en/master/usage/domains/c.html#c.@alias.data: 200 OK
 Anchor 'c.@alias.data' found? True
 
 https://docs.sympy.org/latest/: 200 OK
-Inventory(project='SymPy', version='1.13.3', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='SymPy', version='1.13.3', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://docs.sympy.org/latest/modules/algebras.html#sympy.algebras.Quaternion: 200 OK
 Anchor 'sympy.algebras.Quaternion' found? True
 
 https://docs.scipy.org/doc/scipy/: 200 OK
-Inventory(project='SciPy', version='1.14.1', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='SciPy', version='1.14.1', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.linalg.SuperLU.html#scipy.sparse.linalg.SuperLU: 200 OK
 Anchor 'scipy.sparse.linalg.SuperLU' found? True
 
 https://docs.scipy.org/doc/scipy-1.8.1/: 200 OK
-Inventory(project='SciPy', version='1.8.1', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='SciPy', version='1.8.1', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://docs.scipy.org/doc/scipy-1.8.1/reference/generated/scipy.sparse.linalg.SuperLU.html#scipy.sparse.linalg.SuperLU: 200 OK
 Anchor 'scipy.sparse.linalg.SuperLU' found? True
 
 https://docs.scipy.org/doc/scipy-1.8.0/: 200 OK
-Inventory(project='SciPy', version='1.8.0', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='SciPy', version='1.8.0', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://docs.scipy.org/doc/scipy-1.8.0/reference/generated/scipy.sparse.linalg.SuperLU.html#scipy.sparse.linalg.SuperLU: 200 OK
 Anchor 'scipy.sparse.linalg.SuperLU' found? True
 
 https://docs.scipy.org/doc/scipy-1.7.1/: 200 OK
-Inventory(project='SciPy', version='1.7.1', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='SciPy', version='1.7.1', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://docs.scipy.org/doc/scipy-1.7.1/reference/generated/scipy.sparse.linalg.SuperLU.html#scipy.sparse.linalg.SuperLU: 200 OK
 Anchor 'scipy.sparse.linalg.SuperLU' found? True
 
 https://docs.scipy.org/doc/scipy-1.7.0/: 200 OK
-Inventory(project='SciPy', version='1.7.0', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='SciPy', version='1.7.0', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://docs.scipy.org/doc/scipy-1.7.0/reference/generated/scipy.LowLevelCallable.html#scipy.LowLevelCallable: 200 OK
 Anchor 'scipy.LowLevelCallable' found? True
 
 https://docs.scipy.org/doc/scipy-1.6.3/reference/: 200 OK
-Inventory(project='SciPy', version='1.6.3', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='SciPy', version='1.6.3', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://docs.scipy.org/doc/scipy-1.6.3/reference/generated/scipy.LowLevelCallable.html#scipy.LowLevelCallable: 200 OK
 Anchor 'scipy.LowLevelCallable' found? True
 
 https://sarge.readthedocs.io/en/latest/: 200 OK
-Inventory(project='Sarge', version='0.1', source_type=<SourceTypes.URL: 'url'>)
+Inventory(project='Sarge', version='0.1', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://sarge.readthedocs.io/en/latest/reference.html#sarge.Capture: 200 OK
 Anchor 'sarge.Capture' found? True
 
