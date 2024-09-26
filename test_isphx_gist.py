@@ -86,6 +86,20 @@ def mapping_tuple(request):
     return request.param
 
 
+@pytest.fixture(scope="session")
+def tmp_storage_path(tmp_path_factory):
+    """Supply a temp directory to store downloaded inventories.
+
+    As of Sep 2024, it appears that some sites are blocking traffic from
+    hosted GitHub Actions runners. (At least, the test suite is passing
+    locally but failing for some sites in CI.)
+
+    Perhaps requests can succeed where urllib fails?
+
+    """
+    return tmp_path_factory.mktemp("inv_storage")
+
+
 def test_mapping_root(mapping_tuple):
     """Check docs root link validity."""
     resp = rq.get(mapping_tuple[0])
@@ -93,10 +107,17 @@ def test_mapping_root(mapping_tuple):
     assert resp.ok
 
 
-def test_mapping_objects_inv(mapping_tuple):
+def test_mapping_objects_inv(mapping_tuple, tmp_storage_path):
     """Check docs objects.inv link validity."""
     inv_link = mapping_tuple[1] or (mapping_tuple[0].removesuffix("/") + "/objects.inv")
-    inv = soi.Inventory(url=inv_link)
+
+    inv_path = (
+        tmp_storage_path / f"objects_{re.sub('[^a-zA-Z0-9]', '', mapping_tuple[0])}.inv"
+    )
+    resp = rq.get(inv_link)
+    inv_path.write_bytes(resp.content)
+
+    inv = soi.Inventory(fname_zlib=inv_path)
     log_append(f"{repr(inv)}\n")
 
     # Interestingly, (some?) module objects don't craft accurate URIs?
