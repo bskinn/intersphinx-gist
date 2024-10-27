@@ -1,5 +1,5 @@
 
-Linkcheck run: 2024-10-20 01:54:40 UTC
+Linkcheck run: 2024-10-27 01:54:35 UTC
 
 Got gist page
 
@@ -46,12 +46,12 @@ https://docs.djangoproject.com/en/dev/ref/class-based-views/flattened-index/#Arc
 Anchor 'ArchiveIndexView' found? True
 
 https://flask.palletsprojects.com/en/2.2.x/: 200 OK
-Inventory(project='Flask', version='2.2.x', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
+Inventory(project='Flask', version='3.0.x', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://flask.palletsprojects.com/en/2.2.x/config/#APPLICATION_ROOT: 200 OK
 Anchor 'APPLICATION_ROOT' found? True
 
 https://flask.palletsprojects.com/en/1.1.x/: 200 OK
-Inventory(project='Flask', version='1.1.x', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
+Inventory(project='Flask', version='3.0.x', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://flask.palletsprojects.com/en/1.1.x/config/#APPLICATION_ROOT: 200 OK
 Anchor 'APPLICATION_ROOT' found? True
 
