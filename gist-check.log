@@ -1,5 +1,5 @@
 
-Linkcheck run: 2024-12-01 01:55:31 UTC
+Linkcheck run: 2024-12-08 01:55:09 UTC
 
 Got gist page
 
@@ -61,7 +61,7 @@ https://docs.h5py.org/en/latest/high/attr.html#h5py.AttributeManager: 200 OK
 Anchor 'h5py.AttributeManager' found? True
 
 https://matplotlib.org/stable/: 200 OK
-Inventory(project='Matplotlib', version='3.9.2', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
+Inventory(project='Matplotlib', version='3.9.3', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://matplotlib.org/stable/api/dates_api.html#matplotlib.dates.relativedelta: 200 OK
 Anchor 'matplotlib.dates.relativedelta' found? True
 
