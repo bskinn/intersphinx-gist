@@ -1,5 +1,5 @@
 
-Linkcheck run: 2024-12-08 01:55:09 UTC
+Linkcheck run: 2024-12-15 01:55:10 UTC
 
 Got gist page
 
@@ -66,7 +66,7 @@ https://matplotlib.org/stable/api/dates_api.html#matplotlib.dates.relativedelta:
 Anchor 'matplotlib.dates.relativedelta' found? True
 
 https://numpy.org/doc/stable/: 200 OK
-Inventory(project='NumPy', version='2.1', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
+Inventory(project='NumPy', version='2.2', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://numpy.org/doc/stable/reference/c-api/array.html#c.NO_IMPORT_ARRAY: 200 OK
 Anchor 'c.NO_IMPORT_ARRAY' found? True
 
@@ -81,7 +81,7 @@ https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/sessions.html#fla
 Anchor 'flash' found? True
 
 https://scikit-learn.org/stable/: 200 OK
-Inventory(project='scikit-learn', version='1.5', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
+Inventory(project='scikit-learn', version='1.6', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://scikit-learn.org/stable/modules/generated/sklearn.base.BaseEstimator.html#sklearn.base.BaseEstimator: 200 OK
 Anchor 'sklearn.base.BaseEstimator' found? True
 
