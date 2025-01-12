@@ -1,5 +1,5 @@
 
-Linkcheck run: 2025-01-05 01:54:41 UTC
+Linkcheck run: 2025-01-12 01:54:41 UTC
 
 Got gist page
 
@@ -96,7 +96,7 @@ https://docs.sympy.org/latest/modules/algebras.html#sympy.algebras.Quaternion: 2
 Anchor 'sympy.algebras.Quaternion' found? True
 
 https://docs.scipy.org/doc/scipy/: 200 OK
-Inventory(project='SciPy', version='1.15.0', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
+Inventory(project='SciPy', version='1.15.1', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.linalg.SuperLU.html#scipy.sparse.linalg.SuperLU: 200 OK
 Anchor 'scipy.sparse.linalg.SuperLU' found? True
 
