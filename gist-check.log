@@ -1,5 +1,5 @@
 
-Linkcheck run: 2025-06-08 01:54:29 UTC
+Linkcheck run: 2025-06-15 01:54:35 UTC
 
 Got gist page
 
@@ -66,7 +66,7 @@ https://matplotlib.org/stable/api/dates_api.html#matplotlib.dates.relativedelta:
 Anchor 'matplotlib.dates.relativedelta' found? True
 
 https://numpy.org/doc/stable/: 200 OK
-Inventory(project='NumPy', version='2.2', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
+Inventory(project='NumPy', version='2.3', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://numpy.org/doc/stable/reference/c-api/array.html#c.NO_IMPORT_ARRAY: 200 OK
 Anchor 'c.NO_IMPORT_ARRAY' found? True
 
