@@ -1,5 +1,5 @@
 
-Linkcheck run: 2025-09-14 01:54:01 UTC
+Linkcheck run: 2025-09-21 01:54:02 UTC
 
 Got gist page
 
@@ -41,7 +41,7 @@ https://www.attrs.org/en/stable/api-attr.html#attr.Attribute: 200 OK
 Anchor 'attr.Attribute' found? True
 
 https://docs.djangoproject.com/en/dev/: 200 OK
-Inventory(project='Django', version='6.0', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
+Inventory(project='Django', version='6.1', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://docs.djangoproject.com/en/dev/ref/class-based-views/flattened-index/#ArchiveIndexView: 200 OK
 Anchor 'ArchiveIndexView' found? True
 
