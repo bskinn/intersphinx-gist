@@ -1,5 +1,5 @@
 
-Linkcheck run: 2025-09-28 01:54:11 UTC
+Linkcheck run: 2025-10-05 01:54:09 UTC
 
 Got gist page
 
@@ -71,7 +71,7 @@ https://numpy.org/doc/stable/reference/c-api/array.html#c.NO_IMPORT_ARRAY: 200 O
 Anchor 'c.NO_IMPORT_ARRAY' found? True
 
 https://pandas.pydata.org/docs/: 200 OK
-Inventory(project='pandas', version='2.3.2', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
+Inventory(project='pandas', version='2.3.3', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://pandas.pydata.org/docs/reference/api/pandas.ArrowDtype.html#pandas.ArrowDtype: 200 OK
 Anchor 'pandas.ArrowDtype' found? True
 
