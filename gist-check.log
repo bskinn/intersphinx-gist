@@ -1,5 +1,5 @@
 
-Linkcheck run: 2025-10-05 01:54:09 UTC
+Linkcheck run: 2025-10-12 01:53:58 UTC
 
 Got gist page
 
@@ -26,7 +26,7 @@ https://docs.scipy.org/doc/scipy-1.6.3/reference/
 https://sarge.readthedocs.io/en/latest/
 
 https://docs.python.org/3/: 200 OK
-Inventory(project='Python', version='3.13', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
+Inventory(project='Python', version='3.14', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://docs.python.org/3/c-api/code.html#c.CO_ASYNC_GENERATOR: 200 OK
 Anchor 'c.CO_ASYNC_GENERATOR' found? True
 
@@ -36,7 +36,7 @@ https://docs.python.org/3.9/c-api/veryhigh.html#c.CO_FUTURE_DIVISION: 200 OK
 Anchor 'c.CO_FUTURE_DIVISION' found? True
 
 https://www.attrs.org/en/stable/: 200 OK
-Inventory(project='attrs', version='25.3', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
+Inventory(project='attrs', version='25.4', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://www.attrs.org/en/stable/api-attr.html#attr.Attribute: 200 OK
 Anchor 'attr.Attribute' found? True
 
@@ -61,7 +61,7 @@ https://docs.h5py.org/en/latest/high/attr.html#h5py.AttributeManager: 200 OK
 Anchor 'h5py.AttributeManager' found? True
 
 https://matplotlib.org/stable/: 200 OK
-Inventory(project='Matplotlib', version='3.10.6', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
+Inventory(project='Matplotlib', version='3.10.7', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://matplotlib.org/stable/api/dates_api.html#matplotlib.dates.relativedelta: 200 OK
 Anchor 'matplotlib.dates.relativedelta' found? True
 
