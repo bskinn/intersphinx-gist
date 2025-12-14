@@ -1,5 +1,5 @@
 
-Linkcheck run: 2025-12-07 01:54:40 UTC
+Linkcheck run: 2025-12-14 01:54:38 UTC
 
 Got gist page
 
@@ -61,7 +61,7 @@ https://docs.h5py.org/en/latest/high/attr.html#h5py.AttributeManager: 200 OK
 Anchor 'h5py.AttributeManager' found? True
 
 https://matplotlib.org/stable/: 200 OK
-Inventory(project='Matplotlib', version='3.10.7', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
+Inventory(project='Matplotlib', version='3.10.8', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://matplotlib.org/stable/api/dates_api.html#matplotlib.dates.relativedelta: 200 OK
 Anchor 'matplotlib.dates.relativedelta' found? True
 
@@ -81,7 +81,7 @@ https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/sessions.html#fla
 Anchor 'flash' found? True
 
 https://scikit-learn.org/stable/: 200 OK
-Inventory(project='scikit-learn', version='1.7', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
+Inventory(project='scikit-learn', version='1.8', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://scikit-learn.org/stable/modules/generated/sklearn.base.BaseEstimator.html#sklearn.base.BaseEstimator: 200 OK
 Anchor 'sklearn.base.BaseEstimator' found? True
 
