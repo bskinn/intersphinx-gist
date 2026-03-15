@@ -1,5 +1,5 @@
 
-Linkcheck run: 2026-03-08 01:55:28 UTC
+Linkcheck run: 2026-03-15 01:56:00 UTC
 
 Got gist page
 
@@ -71,12 +71,12 @@ https://numpy.org/doc/stable/reference/c-api/array.html#c.NO_IMPORT_ARRAY: 200 O
 Anchor 'c.NO_IMPORT_ARRAY' found? True
 
 https://pandas.pydata.org/docs/: 200 OK
-Inventory(project='pandas', version='3.0.1', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
+Inventory(project='pandas', version='', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://pandas.pydata.org/docs/reference/api/pandas.ArrowDtype.html#pandas.ArrowDtype: 200 OK
 Anchor 'pandas.ArrowDtype' found? True
 
 https://docs.pylonsproject.org/projects/pyramid/en/latest/: 200 OK
-Inventory(project='The Pyramid Web Framework', version='2.0.2', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
+Inventory(project='The Pyramid Web Framework', version='2.1', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/sessions.html#flash: 200 OK
 Anchor 'flash' found? True
 
