@@ -1,5 +1,5 @@
 
-Linkcheck run: 2026-03-15 01:56:00 UTC
+Linkcheck run: 2026-03-22 01:55:47 UTC
 
 Got gist page
 
@@ -36,7 +36,7 @@ https://docs.python.org/3.9/c-api/veryhigh.html#c.CO_FUTURE_DIVISION: 200 OK
 Anchor 'c.CO_FUTURE_DIVISION' found? True
 
 https://www.attrs.org/en/stable/: 200 OK
-Inventory(project='attrs', version='25.4', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
+Inventory(project='attrs', version='26.1', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://www.attrs.org/en/stable/api-attr.html#attr.Attribute: 200 OK
 Anchor 'attr.Attribute' found? True
 
@@ -71,7 +71,7 @@ https://numpy.org/doc/stable/reference/c-api/array.html#c.NO_IMPORT_ARRAY: 200 O
 Anchor 'c.NO_IMPORT_ARRAY' found? True
 
 https://pandas.pydata.org/docs/: 200 OK
-Inventory(project='pandas', version='', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
+Inventory(project='pandas', version='3.0.1', source_type=<SourceTypes.FnameZlib: 'fname_zlib'>)
 https://pandas.pydata.org/docs/reference/api/pandas.ArrowDtype.html#pandas.ArrowDtype: 200 OK
 Anchor 'pandas.ArrowDtype' found? True
 
