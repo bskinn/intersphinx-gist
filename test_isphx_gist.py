@@ -126,13 +126,13 @@ def test_mapping_objects_inv(mapping_tuple, tmp_storage_path):
     obj_link = mapping_tuple[0] + data_obj.uri_expanded
     obj_resp = rq.get(obj_link)
     log_append(f"{obj_link}: {obj_resp.status_code} {obj_resp.reason}\n")
-    assert obj_resp.ok
+    assert obj_resp.ok, obj_link
 
     soup = BSoup(obj_resp.text, "html.parser")
 
     if anchor := obj_link.partition("#")[2]:
         anchor_check = soup.find_all("dt", id=anchor)
         log_append(f"Anchor '{anchor}' found? {bool(anchor_check)}\n\n")
-        assert anchor_check
+        assert anchor_check, anchor
     else:
         log_append("No anchor in uri")
